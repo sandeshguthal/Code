@@ -1,4 +1,5 @@
-if len(height) == 0:
+def trap(self, height: List[int]) -> int:
+    if len(height) == 0:
             return 0
         left = [0 for x in range(len(height))]
         right = [0 for x in range(len(height))]
